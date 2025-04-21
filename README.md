@@ -7,7 +7,7 @@ import matplotlib.pyplot as plt
 # Step 1: Load the data
 df = pd.read_csv('plant_metabolites.csv', index_col=0)
 
-# Step 2: Grab the samples we care about
+# Step 2: Grab the samples 
 # We're comparing WT and Mutants between 24h pesticide treatment and DMSO control
 
 wt_dmso = df.loc['WT_DMSO_1']
